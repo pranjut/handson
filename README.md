@@ -15,13 +15,13 @@ GPU setup
 
 7. Once the instance is up
   i. ssh into it
-  ii. write $ ps aux | grep apt
+  ii. write ```ps aux | grep apt```
   iii. If process found wait for some time 
   iv. If all apt process are done clone this project
   v. Run the ```gpu_setup.sh``` script
   
  8. Go to the handson folder run the following
-   $ sudo jupyter notebook --ip 0.0.0.0 --port 8888 --allow-root
+   ```sudo jupyter notebook --ip 0.0.0.0 --port 8888 --allow-root```
  
  9. Now access Jupyter through the external ip
  
