@@ -13,9 +13,8 @@ GPU setup
 
 6. Copy the sh script from ```startup_script.sh``` put in the startup script
 
-7. Once the instance is up
-
-  i. ssh into it
+7. Once the instance is up</br>
+  i. ssh into it</br>
   ii. write ```ps aux | grep apt```
   iii. If process found wait for some time 
   iv. If all apt process are done clone this project
